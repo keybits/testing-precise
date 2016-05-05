@@ -4,6 +4,6 @@
 
 Just testing testing. And changing things to test.
 
-And doing it again. Just making a change to switch containers. Back to trusty.
+And doing it again. Just making a change to switch containers. Back to precise.
 
 
