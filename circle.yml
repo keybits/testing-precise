@@ -2,10 +2,15 @@ machine:
   python:
     version: 2.7.10
 
+dependencies:
+  cache_directories:
+    - ~/downloads/
+
 
 test:
   post:
     - touch $CIRCLE_ARTIFACTS/file.txt
+    - touch ~/downloads/tom.txt
 
 deployment:
   release:
