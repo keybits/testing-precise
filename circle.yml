@@ -16,7 +16,7 @@ test:
 
 deployment:
   release:
-    tag: /v[0-9]+/
+    tag: /.*/
     owner: keybits
     commands:
-      - "true"
+      - 'echo this is a dummy command just to trigger CircleCI on tags, deployment has already happened above.'
