@@ -19,4 +19,4 @@ deployment:
     tag: /.*/
     owner: keybits
     commands:
-      - 'echo this is a dummy command just to trigger CircleCI on tags, deployment has already happened above.'
+      - "true"
