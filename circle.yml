@@ -10,6 +10,7 @@ dependencies:
 
 test:
   pre:
+    - make xenon
     - mkdir -p ~/downloads
   override:
     - case $CIRCLE_NODE_INDEX in 0) nosetests tests/test1.py ;; 1) nosetests tests/test2.py ;; esac:
