@@ -22,7 +22,11 @@ test:
     - touch ~/downloads/tom.txt
 
 deployment:
-  release:
+  master:
+    branch: master
+    commands:
+      - "true"
+  tag:
     tag: /test-.*/
     commands:
       - "true"
