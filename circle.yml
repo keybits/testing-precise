@@ -27,6 +27,6 @@ deployment:
     commands:
       - "true"
   tag:
-    tag: /test-.*/
+    tag: /v?[0-9]*[.][0-9]*[.][0-9]*[0-9A-Za-z-]*/
     commands:
       - "true"
