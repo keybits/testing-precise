@@ -24,6 +24,5 @@ test:
 deployment:
   release:
     tag: /.*/
-    owner: keybits
     commands:
       - "true"
